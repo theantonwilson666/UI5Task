@@ -8,7 +8,7 @@
 
 2. Из папки `SIBUR_NODE_MODULES` перемещаем `node_modules` в папку `UI5Task`
 
-3. Скачиваем UI5 SDK 1.60.29+
+3. Скачиваем UI5 SDK последней версии(1.88.1)
 
     `https://tools.hana.ondemand.com/#sapui5`
     
