@@ -30,7 +30,7 @@
 
 Ссылка на ланчпад(точка входа в приложение) `http://localhost:8000/ui/fiorisandbox/` или же напрямую `http://localhost:8000/ui/ui5_example/webapp`
 
-Рекомендуется для работы использоваться VSCode - `https://code.visualstudio.com/download`
+Рекомендуется для работы использовать VSCode - `https://code.visualstudio.com/download`
 
 Все необходимые настройки можно делать в файле `Gruntfile.js`, там же задаются запросы на перенос в систему.
 
