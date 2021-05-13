@@ -20,6 +20,8 @@
     
     `npm install`
     
+    `npm i grunt`
+    
     `npm i grunt-contrib-connect`
     
     `npm i grunt-openui5`
