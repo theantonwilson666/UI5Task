@@ -1,14 +1,10 @@
 # Настройка рабочей области
 
-1. В рабочей области делаем клоны репозиторий: 
+1. В рабочей области делаем клон репозитория: 
 
     `git clone https://github.com/theantonwilson666/UI5Task.git`
-    
-    `git clone https://github.com/Elrut/SIBUR_NODE_MODULES`
 
-2. Из папки `SIBUR_NODE_MODULES` перемещаем `node_modules` в папку `UI5Task`
-
-3. Скачиваем UI5 SDK последней версии(1.88.1)
+2. Скачиваем UI5 SDK последней версии(1.88.1)
 
     `https://tools.hana.ondemand.com/#sapui5`
     
@@ -25,6 +21,8 @@
     `npm i grunt-contrib-connect`
     
     `npm i grunt-openui5`
+    
+    `npm i grunt-connect-proxy`
 
 # Запуск локального сервера
 
@@ -32,6 +30,7 @@
 
 Ссылка на ланчпад(точка входа в приложение) `http://localhost:8000/ui/fiorisandbox/` или же напрямую `http://localhost:8000/ui/ui5_example/webapp`
 
+Рекомендуется для работы использоваться VSCode - `https://code.visualstudio.com/download`
 
 Все необходимые настройки можно делать в файле `Gruntfile.js`, там же задаются запросы на перенос в систему.
 
