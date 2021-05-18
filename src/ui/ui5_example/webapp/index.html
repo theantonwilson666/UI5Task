@@ -2,27 +2,30 @@
 <html>
   <head>
     <meta charset="utf-8" />
-
+    
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Test</title>
-    <script
+  	<script
       id="sap-ui-bootstrap"
-      src="/resources/sap-ui-core.js"
+      src="https://openui5.hana.ondemand.com/resources/sap-ui-core.js"
       data-sap-ui-theme="sap_belize"
-      data-sap-ui-resourceroots='{"intheme.zui5_example" :" ./"}'
+      data-sap-ui-libs="sap.m"
       data-sap-ui-compatVersion="edge"
-      data-sap-ui-oninit="module:sap/ui/core/ComponentSupport"
       data-sap-ui-async="true"
-      data-sap-ui-frameOptions="trusted"
-    ></script>
+      data-sap-ui-onInit="module:sap/ui/demo/walkthrough/index"
+      data-sap-ui-resourceroots='{
+        "sap.ui.demo.walkthrough": "./"
+      }'>
+	</script>
   </head>
 
   <body class="sapUiBody" id="content">
     <div
       data-sap-ui-component
-      data-name="intheme.zui5_example"
+      data-name='sasp.ui.demo.walkthrough'
       data-id="container"
-      data-settings='{" id" :" intheme.zui5_example"}'
-    ></div>
+      data-settings='{"id" : "walkthrough"}'
+    >
+  </div>
   </body>
 </html>
